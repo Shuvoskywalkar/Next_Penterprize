@@ -2,6 +2,9 @@ import React, { Fragment ,useEffect,useState} from 'react';
 import Head from 'next/head';
 
 import Products from './Products';
+import Navbar from './Navbar';
+import Carousel from './Carousel';
+import NextJsCarousel from './Carousel';
 const Homepage = (props) => {
   
   const Productss = props.products
@@ -83,17 +86,8 @@ const [time,settime]=useState([])
     return (
         <div>
 
-{/* <Home/> */}
-
-
-
-
-
-{/* <Carousel/> */}
-{/* <Sliders/> */}
-
-
-
+<Navbar/>
+<NextJsCarousel/>
 <section className="text-gray-600 body-font  ">
 <div className="container px-5 py-24 mx-auto">
   <div className="flex flex-wrap -m-4 ">
