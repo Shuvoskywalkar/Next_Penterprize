@@ -16,7 +16,7 @@ const ShowItemsR1=props.Items.slice(0, 8);
         
                     ShowItemsR1.map((post) => (
             // <Link href={`/${post._id}`} key={post._id}>
-               <div   className="lg:w-1/4 md:w-1/2 p-4 w-full ard group relative "  >
+               <div  key={post._id} className="lg:w-1/4 md:w-1/2 p-4 w-full ard group relative "  >
       <a className="block h-48 rounded overflow-hidden items-center justify-content-center ">
         <img  alt="ecommerce" className="opacity-100 group-hover:opacity-10 group-hover:bg-gray-100" src={post.image}/>
 <div className="	photoIcons   ">
