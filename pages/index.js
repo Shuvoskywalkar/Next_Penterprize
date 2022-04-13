@@ -9,8 +9,6 @@ export default function Home(props) {
   
   return (
    <Fragment  >
-    
-     {/* <Homepage products={props.meetupPlaces} /> */}
      <section  className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
@@ -104,6 +102,8 @@ export default function Home(props) {
     </div>
   </div>
 </section>
+     <Homepage products={props.meetupPlaces} />
+    
    </Fragment>
   )
 }
