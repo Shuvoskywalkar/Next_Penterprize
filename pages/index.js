@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Homepage from  '../Components/Homepage/Homepage.js';
 import { Fragment } from 'react';
+import Navbar from '../Components/Homepage/Navbar.js';
+import NextJsCarousel from '../Components/Homepage/Carousel.js';
 
 
 
@@ -9,8 +11,12 @@ export default function Home(props) {
   
   return (
    <Fragment  >
+
+
+    <Navbar/>
+    <NextJsCarousel/>
     
-     <Homepage products={props.meetupPlaces} />
+      <Homepage products={props.meetupPlaces} />
     
    </Fragment>
   )

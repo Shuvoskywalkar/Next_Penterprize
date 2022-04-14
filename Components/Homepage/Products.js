@@ -12,10 +12,13 @@ const Products = (props) => {
 const ShowItemsR1=props.Items.slice(0, 8);
 
     return (
-        
-        
+      <div className="text-gray-600 body-font  ">
+      <div className="container px-5 py-24 mx-auto">
+      <div className="flex flex-wrap -m-4 ">
+      
+        {
                     ShowItemsR1.map((post) => (
-            // <Link href={`/${post._id}`} key={post._id}>
+ 
                <div  key={post._id} className="lg:w-1/4 md:w-1/2 p-4 w-full ard group relative "  >
       <a className="block h-48 rounded overflow-hidden items-center justify-content-center ">
         <img  alt="ecommerce" className="opacity-100 group-hover:opacity-10 group-hover:bg-gray-100" src={post.image}/>
@@ -62,11 +65,13 @@ const ShowItemsR1=props.Items.slice(0, 8);
 {/* </div> */}
     
     </div>
-    // </Link>
+  
     ))
   
-
-
+                    }
+</div>
+</div>
+</div>
     );
 };
 
