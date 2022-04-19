@@ -20,9 +20,7 @@ export default function Home(props) {
     
    </Fragment>
   )
-}
-
-export async function getStaticProps(){
+}export const getStaticProps = async (context) => {
   const res = await fetch('https://fakestoreapi.com/products')
   const posts = await res.json()
   // console.log(posts)
