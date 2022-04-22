@@ -476,7 +476,7 @@ console.log(post)
   
 
         <div className="flex items-center justify-center px-5 py-5">
-    <div className="w-full mx-auto max-w-xl rounded-lg bg-gray-100 dark:bg-gray-800 shadow-lg px-5 pt-5 pb-10 text-gray-800 dark:text-gray-50">
+    <div className="w-full mx-auto max-w-xl rounded-lg bg-gray-100  shadow-lg px-5 pt-5 pb-10 text-gray-800 ">
         <div className="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
             <div  className="block relative">
                 <img alt="profil" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80CAU" className="mx-auto object-cover rounded-full h-24 w-25 "/>
